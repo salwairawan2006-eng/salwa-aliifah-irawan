@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi | SmartFit Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <h2>SMARTFIT HUB</h2>
+    <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#programs">Programs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- ================= RESERVATION SECTION ================= -->
+<section class="reservation">
+    <h2>Reservasi Kelas / Trial Membership</h2>
+    <p>Silakan isi form di bawah ini untuk melakukan reservasi</p>
+
+    <form class="reservation-form">
+
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama lengkap" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan email" required>
+
+        <label>Nomor HP</label>
+        <input type="tel" placeholder="Masukkan nomor HP" required>
+
+        <label>Tanggal Reservasi</label>
+        <input type="date" required>
+
+        <label>Jam</label>
+        <select required>
+            <option value="">Pilih Jam</option>
+            <option>08:00</option>
+            <option>10:00</option>
+            <option>13:00</option>
+            <option>16:00</option>
+            <option>18:00</option>
+        </select>
+
+        <label>Jenis Program</label>
+        <select required>
+            <option value="">Pilih Program</option>
+            <option>Yoga</option>
+            <option>HIIT</option>
+            <option>Personal Training</option>
+            <option>Trial Membership</option>
+        </select>
+
+        <label>Pilih Cabang</label>
+        <select required>
+            <option value="">Pilih Cabang</option>
+            <option>Jakarta</option>
+            <option>Bandung</option>
+        </select>
+
+        <label>Catatan Khusus</label>
+        <textarea placeholder="Contoh: pemula, cedera, dll"></textarea>
+
+        <div class="checkbox">
+            <input type="checkbox" required>
+            <span>Saya memastikan data yang diisi sudah benar</span>
+        </div>
+
+        <button type="submit">Kirim Reservasi</button>
+    </form>
+</section>
+
+<!-- ================= SUPPORT & FAQ ================= -->
+<section class="support">
+    <h3>Support Info</h3>
+    <p>Email: support@smartfithub.com</p>
+    <p>WhatsApp: +62 812 3456 7890</p>
+
+    <h3>FAQ</h3>
+    <p><strong>1. Apakah trial membership gratis?</strong><br>Ya, trial membership gratis untuk member baru.</p>
+    <p><strong>2. Apakah bisa mengubah jadwal?</strong><br>Bisa, maksimal H-1 sebelum jadwal.</p>
+    <p><strong>3. Apakah perlu datang lebih awal?</strong><br>Disarankan datang 10–15 menit lebih awal.</p>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p>© 2026 SmartFit Hub. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
